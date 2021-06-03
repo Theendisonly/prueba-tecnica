@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 90.0.4430 (Windows 10.0.0)" package="unit" timestamp="2021-06-03T18:38:38" id="0" hostname="DESKTOP-730SQQ0" tests="10" errors="0" failures="0" time="0.674">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/90.0.4430.212 Safari/537.36"/>
+  </properties>
+  <testcase name="KanbanBoard For a task in stage 0, backward icon is disabled and forward icon is enabled" time="0.087" classname=".KanbanBoard"/>
+  <testcase name="KanbanBoard For a task in stage 4, can be moved backward till stage 0 and check for icons are enabled/disabled correctly" time="0.06" classname=".KanbanBoard"/>
+  <testcase name="KanbanBoard Clicking on Create Task Button should add it to first stage and do nothing if input is empty" time="0.04" classname=".KanbanBoard"/>
+  <testcase name="KanbanBoard tasks are in correct state after multiple move and deletions" time="0.071" classname=".KanbanBoard"/>
+  <testcase name="KanbanBoard For a task in stage 0, can be moved forward till stage 4 and check for icons are enabled/disabled correctly" time="0.063" classname=".KanbanBoard"/>
+  <testcase name="KanbanBoard Clicking on delete should delete the task in stage 1" time="0.034" classname=".KanbanBoard"/>
+  <testcase name="KanbanBoard after many forward and back operations, tasks are in correct state" time="0.178" classname=".KanbanBoard"/>
+  <testcase name="KanbanBoard Clicking on delete should delete the task in stage 3" time="0.07" classname=".KanbanBoard"/>
+  <testcase name="KanbanBoard Clicking on delete should delete the task in stage 0" time="0.032" classname=".KanbanBoard"/>
+  <testcase name="KanbanBoard Clicking on delete should delete the task in stage 2" time="0.039" classname=".KanbanBoard"/>
+  <system-out>
+    <![CDATA[HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'entramos a crear: task 1'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: [Object{name: '0', stage: 0}, Object{name: '1', stage: 0}]
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: [Object{name: '0', stage: 0}, Object{name: '1', stage: 0}, Object{name: 'task 1', stage: 0}]
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'entramos a crear: task 1'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: [Object{name: '0', stage: 0}, Object{name: '1', stage: 0}]
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: [Object{name: '0', stage: 0}, Object{name: '1', stage: 0}, Object{name: 'task 1', stage: 0}]
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'entramos a crear: task 1'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: [Object{name: '0', stage: 0}, Object{name: '1', stage: 0}]
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: [Object{name: '0', stage: 0}, Object{name: '1', stage: 0}, Object{name: 'task 1', stage: 0}]
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'entramos a crear: '
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: [Object{name: '0', stage: 0}, Object{name: '1', stage: 0}, Object{name: 'task 1', stage: 0}]
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'entramos a crear: task 1'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: [Object{name: '0', stage: 0}, Object{name: '1', stage: 0}]
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: [Object{name: '0', stage: 0}, Object{name: '1', stage: 0}, Object{name: 'task 1', stage: 0}]
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'entramos a crear: task 2'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: [Object{name: '0', stage: 0}, Object{name: '1', stage: 0}, Object{name: 'task 1', stage: 0}]
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: [Object{name: '0', stage: 0}, Object{name: '1', stage: 0}, Object{name: 'task 1', stage: 0}, Object{name: 'task 2', stage: 0}]
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'entramos a crear: task 3'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: [Object{name: '0', stage: 0}, Object{name: '1', stage: 0}, Object{name: 'task 2', stage: 2}]
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: [Object{name: '0', stage: 0}, Object{name: '1', stage: 0}, Object{name: 'task 2', stage: 2}, Object{name: 'task 3', stage: 0}]
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'entramos a crear: task 1'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: [Object{name: '0', stage: 0}, Object{name: '1', stage: 0}]
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: [Object{name: '0', stage: 0}, Object{name: '1', stage: 0}, Object{name: 'task 1', stage: 0}]
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'entramos a crear: task 1'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: [Object{name: '0', stage: 0}, Object{name: '1', stage: 0}]
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: [Object{name: '0', stage: 0}, Object{name: '1', stage: 0}, Object{name: 'task 1', stage: 0}]
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'entramos a crear: task 1'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: [Object{name: '0', stage: 0}, Object{name: '1', stage: 0}]
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: [Object{name: '0', stage: 0}, Object{name: '1', stage: 0}, Object{name: 'task 1', stage: 0}]
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'entramos a crear: task 2'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: [Object{name: '0', stage: 0}, Object{name: '1', stage: 0}, Object{name: 'task 1', stage: 0}]
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: [Object{name: '0', stage: 0}, Object{name: '1', stage: 0}, Object{name: 'task 1', stage: 0}, Object{name: 'task 2', stage: 0}]
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'entramos a crear: task 3'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: [Object{name: '0', stage: 0}, Object{name: '1', stage: 0}, Object{name: 'task 1', stage: 0}, Object{name: 'task 2', stage: 0}]
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: [Object{name: '0', stage: 0}, Object{name: '1', stage: 0}, Object{name: 'task 1', stage: 0}, Object{name: 'task 2', stage: 0}, Object{name: 'task 3', stage: 0}]
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'entramos a crear: task 4'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: [Object{name: '0', stage: 0}, Object{name: '1', stage: 0}, Object{name: 'task 1', stage: 0}, Object{name: 'task 2', stage: 0}, Object{name: 'task 3', stage: 1}]
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: [Object{name: '0', stage: 0}, Object{name: '1', stage: 0}, Object{name: 'task 1', stage: 0}, Object{name: 'task 2', stage: 0}, Object{name: 'task 3', stage: 1}, Object{name: 'task 4', stage: 0}]
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'entramos a crear: task 5'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: [Object{name: '0', stage: 0}, Object{name: '1', stage: 0}, Object{name: 'task 1', stage: 0}, Object{name: 'task 2', stage: 0}, Object{name: 'task 3', stage: 1}, Object{name: 'task 4', stage: 1}]
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: [Object{name: '0', stage: 0}, Object{name: '1', stage: 0}, Object{name: 'task 1', stage: 0}, Object{name: 'task 2', stage: 0}, Object{name: 'task 3', stage: 1}, Object{name: 'task 4', stage: 1}, Object{name: 'task 5', stage: 0}]
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'entramos a crear: task 6'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: [Object{name: '0', stage: 0}, Object{name: '1', stage: 0}, Object{name: 'task 1', stage: 0}, Object{name: 'task 2', stage: 0}, Object{name: 'task 3', stage: 1}, Object{name: 'task 4', stage: 1}, Object{name: 'task 5', stage: 2}]
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: [Object{name: '0', stage: 0}, Object{name: '1', stage: 0}, Object{name: 'task 1', stage: 0}, Object{name: 'task 2', stage: 0}, Object{name: 'task 3', stage: 1}, Object{name: 'task 4', stage: 1}, Object{name: 'task 5', stage: 2}, Object{name: 'task 6', stage: 0}]
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'entramos a crear: task 7'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: [Object{name: '0', stage: 0}, Object{name: '1', stage: 0}, Object{name: 'task 1', stage: 0}, Object{name: 'task 2', stage: 0}, Object{name: 'task 3', stage: 1}, Object{name: 'task 4', stage: 1}, Object{name: 'task 5', stage: 2}, Object{name: 'task 6', stage: 2}]
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: [Object{name: '0', stage: 0}, Object{name: '1', stage: 0}, Object{name: 'task 1', stage: 0}, Object{name: 'task 2', stage: 0}, Object{name: 'task 3', stage: 1}, Object{name: 'task 4', stage: 1}, Object{name: 'task 5', stage: 2}, Object{name: 'task 6', stage: 2}, Object{name: 'task 7', stage: 0}]
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'entramos a crear: task 8'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: [Object{name: '0', stage: 0}, Object{name: '1', stage: 0}, Object{name: 'task 1', stage: 0}, Object{name: 'task 2', stage: 0}, Object{name: 'task 3', stage: 1}, Object{name: 'task 4', stage: 1}, Object{name: 'task 5', stage: 2}, Object{name: 'task 6', stage: 2}, Object{name: 'task 7', stage: 3}]
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: [Object{name: '0', stage: 0}, Object{name: '1', stage: 0}, Object{name: 'task 1', stage: 0}, Object{name: 'task 2', stage: 0}, Object{name: 'task 3', stage: 1}, Object{name: 'task 4', stage: 1}, Object{name: 'task 5', stage: 2}, Object{name: 'task 6', stage: 2}, Object{name: 'task 7', stage: 3}, Object{name: 'task 8', stage: 0}]
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'entramos a crear: task 1'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: [Object{name: '0', stage: 0}, Object{name: '1', stage: 0}]
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: [Object{name: '0', stage: 0}, Object{name: '1', stage: 0}, Object{name: 'task 1', stage: 0}]
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'entramos a crear: task 1'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: [Object{name: '0', stage: 0}, Object{name: '1', stage: 0}]
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: [Object{name: '0', stage: 0}, Object{name: '1', stage: 0}, Object{name: 'task 1', stage: 0}]
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'entramos a crear: task 1'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: [Object{name: '0', stage: 0}, Object{name: '1', stage: 0}]
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: [Object{name: '0', stage: 0}, Object{name: '1', stage: 0}, Object{name: 'task 1', stage: 0}]
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+,HeadlessChrome 90.0.4430 (Windows 10.0.0) LOG: 'se lanza DoCkeck'
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
